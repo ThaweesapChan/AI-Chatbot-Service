@@ -5,6 +5,7 @@ import sys
 import dotenv
 
 dotenv.load_dotenv()  # โหลดค่า .env ก่อนเริ่ม Django
+
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'chatbot_backend.settings')
@@ -17,7 +18,6 @@ def main():
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(sys.argv)
-
 
 if __name__ == '__main__':
     main()
