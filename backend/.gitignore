@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Django Secret
+.env
+db.sqlite3
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+
+# VSCode
+.vscode/
+
+# Node Modules (กรณี frontend)
+frontend/node_modules/

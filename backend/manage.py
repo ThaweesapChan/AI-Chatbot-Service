@@ -4,7 +4,7 @@ import os
 import sys
 import dotenv
 
-dotenv.load_dotenv()
+dotenv.load_dotenv()  # โหลดค่า .env ก่อนเริ่ม Django
 
 def main():
     """Run administrative tasks."""
