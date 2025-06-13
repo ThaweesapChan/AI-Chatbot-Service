@@ -2,8 +2,9 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import dotenv
 
-
+dotenv.load_dotenv()  # โหลดค่า .env ก่อนเริ่ม Django
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'chatbot_backend.settings')
