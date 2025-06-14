@@ -20,3 +20,6 @@ env/
 
 # Node Modules (กรณี frontend)
 frontend/node_modules/
+
+*/migrations/
+!*[__init__.py](http://_vscodecontentref_/2)
